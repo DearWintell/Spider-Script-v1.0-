@@ -1,0 +1,18 @@
+Spider(Start)
+
+window("title='Cube Mover' width='500' height='400' bg='#0d1117'")
+
+var("name='x' value='235'")
+var("name='y' value='185'")
+
+text("text='CUBE MOVER' x='250' y='20' color='#58a6ff' size='18'")
+text("text='Use WASD to move' x='250' y='45' color='gray' size='12'")
+
+shape("type='square' x='235' y='185' size='30' color='red' id='cube'")
+
+bind("key='W' action='y-5'")
+bind("key='S' action='y+5'")
+bind("key='A' action='x-5'")
+bind("key='D' action='x+5'")
+
+button("text='RESET' x='200' y='350' width='100' height='30' bg='#6e7681' color='white' action='x=235; y=185'")

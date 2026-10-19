@@ -1,0 +1,7 @@
+Spider(Start)
+
+window("title='New Project' width=800 height=600 bg='#0d1117'")
+
+text("text='Hello Spider!' x=400 y=300 color='#58a6ff' size=24")
+
+button("text='Click Me' x=350 y=400 width=100 height=40 bg='#238636' color='white' action='print("text=""Clicked!"")"')
